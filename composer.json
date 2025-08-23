@@ -1,0 +1,21 @@
+{
+  "name": "guoguo882010/huaji-id-card",
+  "description": "百度云市场-华际云数身份证实名认证查询",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "47088845",
+      "email": "47088845@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RSHDSDK\\HuaJiIDCard\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*"
+  }
+}
