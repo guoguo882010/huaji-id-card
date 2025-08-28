@@ -58,12 +58,7 @@ class HuaJiIDCard
 
         curl_close($curl);
 
-        $json = json_decode($response, true);
-
-        if ($json['code'] != 200) {
-            throw new Exception($json['code'] . '：' . $json['msg']);
-        }
-        return $json['data'] ?? [];
+        return json_decode($response, true);
 
     }
 }
